@@ -12,6 +12,7 @@ const theme = createMuiTheme({
       main: "#C4CCAB"
       // dark: will be calculated from palette.secondary.main,
     },
+    
     background: {
       default: "#F9F7FF"
     }
@@ -19,8 +20,7 @@ const theme = createMuiTheme({
   },
 
   typography: {
-    fontFamily: '"Quicksand", "Work Sans"',
-    fontSize: 22
+    fontFamily: '"Quicksand", "Work Sans"'
   }
 });
 export default theme;
