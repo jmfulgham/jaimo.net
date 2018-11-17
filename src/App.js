@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-import Welcome from "./components/Welcome/Welcome";
+import Routes from "./components/Routes/Routes";
 
 class App extends Component {
   render() {
-    return (
-        <Welcome />
-    );
+    return <Routes />;
   }
 }
 

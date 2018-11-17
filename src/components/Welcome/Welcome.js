@@ -5,8 +5,7 @@ require("typeface-quicksand");
 
 const styles = {
   fontFamily: "Vidaloka",
-  margin: "150px",
-  marginBottom: "20px"
+  marginTop: '20%'
 };
 
 class Welcome extends Component {
@@ -23,10 +22,10 @@ class Welcome extends Component {
         </Typography>
 
         <Typography
-          variant="body"
+          variant="body2"
           color="secondary"
           align="center"
-          style={{ fontSize: "50px", fontFamily: "Quicksand" }}
+          style={{ fontSize: "40px", fontFamily: "Quicksand" }}
         >
 
           Software Engineer and Mobile App Developer
