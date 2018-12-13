@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Typography from "@material-ui/core/Typography";
-import NavLinks from '../NavLinks/NavLinks';
+import Landing from '../Views/Landing';
 
 
 require("typeface-vidaloka");
@@ -8,7 +8,7 @@ require("typeface-quicksand");
 
 const styles = {
   fontFamily: "Vidaloka",
-  marginTop: '20%'
+  marginTop: "8rem"
 };
 
 class Welcome extends Component {
@@ -22,7 +22,7 @@ class Welcome extends Component {
           Software Engineer and Mobile App Developer
         </Typography>
         <div style ={{textAlign: 'center'}}>
-        <NavLinks />
+        <Landing />
         </div>
       </div>;
   }
