@@ -4,4 +4,6 @@ form > input {
     border-radius: 0.15rem;
     padding: 0.25rem;
     margin: 0.25rem;
+    font-family: "Quicksand";
+    font-size: 14px;
 }

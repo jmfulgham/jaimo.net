@@ -15,25 +15,28 @@ export default class Landing extends Component{
 
     render(){
         return(
-            <form>
-                <Typography variant="title">
+            <div className="landingForm"> 
+               <Typography variant="title">
             For more information about courses or to request a consultation, fill out the form below.
             </Typography>
+            <form>
+             
             <input
             name= "first-name"
-            placeholder="Input First Name Here"
+            placeholder="First Name"
             // onChange={this.handleChange}
             />
            
             <input 
             name = "email"
-            placeholder="Input Email here"
+            placeholder="Email"
             // onChange={this.handleChange}
             />
              <input
             type= "submit"
             name="Submit"/>
             </form>
+            </div>
         )
     }
 }
