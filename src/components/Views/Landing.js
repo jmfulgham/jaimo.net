@@ -40,7 +40,7 @@ export default class Landing extends Component{
                     To work with me, contact <a href="mailto:mo@jaimo.net?Subject=Hi Mo, let's work together!" style={style.email}>mo@jaimo.net</a>
                 </Typography>
                     <div id="mc_embed_signup">
-                        <form action="https://jaimo.us7.list-manage.com/subscribe/post?u=761012afcaf3bda37d7881e87&amp;id=bb54c439c5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+                        <form action="https://jaimo.us7.list-manage.com/subscribe/post?u=761012afcaf3bda37d7881e87&amp;id=bb54c439c5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" validate>
                             <div id="mc_embed_signup_scroll">
 
                                 <div className="mc-field-group">
