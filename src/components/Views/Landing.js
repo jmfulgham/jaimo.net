@@ -44,11 +44,11 @@ export default class Landing extends Component{
                             <div id="mc_embed_signup_scroll">
 
                                 <div className="mc-field-group">
-                                    <Typography style={style.subhead} variant='body2' color="primary"><label htmlFor="mce-FNAME">First Name* </label></Typography>
+                                    <Typography style={style.subhead} variant='subheading' color="primary"><label htmlFor="mce-FNAME">First Name* </label></Typography>
                                     <input type="text" name="FNAME" id="mce-FNAME" required ></input>
                                 </div>
                                 <div>
-                                    <Typography style={style.subhead} variant='body2' color="primary"><label htmlFor="mce-EMAIL">Email Address*
+                                    <Typography style={style.subhead} variant='subheading' color="primary"><label htmlFor="mce-EMAIL">Email Address*
                                     </label></Typography>
                                     <input type="email" name="EMAIL"  id="mce-EMAIL" required></input>
                                 </div>
