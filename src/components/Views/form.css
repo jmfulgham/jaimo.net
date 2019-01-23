@@ -1,14 +1,26 @@
-form > input {
+input {
     flex: 1;
-    height: 2rem;
+    height: 2.5rem;
     border-radius: 0.15rem;
-    padding: 0.25rem;
+    padding: 0.5rem;
     margin: 0.25rem;
     font-family: "Quicksand";
     font-size: 14px;
+    border:1px solid #Cccccc
 }
+
+input:focus{
+    border:1px solid #C4CCAB;
+}
+
 
 a {
     color: #673445;
+}
 
+.button{
+    background-color: white;
+    color: #673445;
+    height: 3rem;
+    border-radius: 1rem;
 }
