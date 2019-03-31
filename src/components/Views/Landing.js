@@ -16,7 +16,8 @@ const style = {
     },
 
     email: {
-        color: 'primary'
+        textDecoration: 'none',
+        color: '#C4CCAB'
     }
 }
 export default class Landing extends Component{
@@ -33,10 +34,10 @@ export default class Landing extends Component{
     render(){
         return(
             <div className="landingForm"> 
-               <Typography variant="headline">
+               <Typography variant="display1">
                    For class announcements and tutorials, subscribe below.
             </Typography>
-                <Typography variant="subheading">
+                <Typography variant="headline">
                     To work with me, contact <a href="mailto:mo@jaimo.net?Subject=Hi Mo, let's work together!" style={style.email}>mo@jaimo.net</a>
                 </Typography>
                     <div id="mc_embed_signup">
