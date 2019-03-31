@@ -35,7 +35,7 @@ class Welcome extends Component {
             <div>
             <Typography variant="body2" color="secondary" align="center"
                         style={{fontSize: "40px", fontFamily: "Quicksand"}}>
-                Software Engineer and Mobile App Developer
+                Software Engineer and Web App Creator
             </Typography>
             </div>
             <div style={{textAlign: 'center'}}>

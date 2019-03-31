@@ -34,7 +34,7 @@ export default class Landing extends Component{
         return(
             <div className="landingForm"> 
                <Typography variant="headline">
-                   For class announcements, freebies, and other tutorials, subscribe below.
+                   For class announcements and tutorials, subscribe below.
             </Typography>
                 <Typography variant="subheading">
                     To work with me, contact <a href="mailto:mo@jaimo.net?Subject=Hi Mo, let's work together!" style={style.email}>mo@jaimo.net</a>
@@ -52,7 +52,7 @@ export default class Landing extends Component{
                                     </label></Typography>
                                     <input type="email" name="EMAIL"  id="mce-EMAIL" required></input>
                                 </div>
-                                <div className="indicates-required"><Typography variant="caption">* indicates required</Typography></div>
+                                <div className="indicates-required"><Typography variant="caption">* indicates required.</Typography></div>
                                 </div>	<div id="mce-responses" >
                                 <div className="response" id="mce-error-response" style={style.none}></div>
                                 <div className="response" id="mce-success-response" style={style.none}></div>
