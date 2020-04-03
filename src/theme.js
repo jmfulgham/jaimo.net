@@ -14,7 +14,7 @@ const theme = createMuiTheme({
     },
     
     background: {
-      default: "#F9F7FF"
+      default: "#ffffff"
     }
     // error: will use the default color
   },

@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import Typography from "@material-ui/core/Typography";
+import React from "react";
 import NavLinks from '../NavLinks/NavLinks';
 
 
@@ -7,25 +6,63 @@ require("typeface-vidaloka");
 require("typeface-quicksand");
 
 const styles = {
-  fontFamily: "Vidaloka",
-  marginTop: '20%'
+
+    container: {
+        height: '100vh',
+        display: 'flex',
+        flexFlow: 'column wrap',
+        justifyContent: 'center',
+        alignItems: 'center',
+        maxWidth: '100%',
+        padding: '2rem',
+
+    },
+
+    titleFont: {
+        fontFamily: "Vidaloka",
+        color: '#673445',
+    },
+
+    subtitles: {
+        fontFamily: 'Quicksand',
+        color: '#000000',
+    },
+
+    nav: {
+        order: '1',
+        alignSelf: 'center'
+    },
+
+    body: {
+        width: '68%',
+        alignSelf: 'center',
+        order: '0',
+        fontSize: '4.4vw'
+
+    }
 };
 
-class Welcome extends Component {
-  render() {
-    return <div>
-        <Typography variant="display4" color="primary" style={styles} align="center">
-          JAI MONE'T
-        </Typography>
+const Welcome = () => {
 
-        <Typography variant="body2" color="secondary" align="center" style={{ fontSize: "40px", fontFamily: "Quicksand" }}>
-          Software Engineer and Mobile App Developer
-        </Typography>
-        <div style ={{textAlign: 'center'}}>
-        <NavLinks />
+    return (<div className="container" style={styles.container}>
+            <div className="body" style={styles.body}>
+
+                <text style={styles.subtitles}>
+                    Hello, my name is </text><text style={styles.titleFont}>
+                     Mone't.<br/>
+                </text>
+                <text style={styles.subtitles}>
+                    I'm a software engineer based in <text style={styles.titleFont}>
+                    Atlanta.<br/></text>
+                </text>
+                <div className="nav" style={styles.nav} aria-label="Navigation">
+                    <NavLinks/>
+                </div>
+            </div>
+
         </div>
-      </div>;
-  }
-}
+    )
+
+};
 
 export default Welcome;
