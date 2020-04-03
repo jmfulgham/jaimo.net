@@ -1,49 +1,67 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
 import NavLinks from '../NavLinks/NavLinks';
-import About from "../About/About";
 
 
 require("typeface-vidaloka");
 require("typeface-quicksand");
 
 const styles = {
-    parentNav: {
+
+    container: {
+        height: '100vh',
         display: 'flex',
-        justifyContent: 'space-around',
-        alignItems: 'center',
-        height: '125px',
         flexFlow: 'column wrap',
+        justifyContent: 'center',
+        alignItems: 'center',
+        maxWidth: '100%',
+        padding: '2rem',
+
     },
 
     titleFont: {
         fontFamily: "Vidaloka",
-        justifyContent: 'flex-end',
+        color: '#673445',
+    },
+
+    subtitles: {
+        fontFamily: 'Quicksand',
+        color: '#000000',
     },
 
     nav: {
-        justifyContent: 'center',
+        order: '1',
+        alignSelf: 'center'
+    },
+
+    body: {
+        width: '68%',
+        alignSelf: 'center',
+        order: '0',
+        fontSize: '4.4vw'
+
     }
 };
 
 const Welcome = () => {
 
-        return (<div className="container">
-                <div className="parent-nav" style={styles.parentNav}>
-                    <div className="title">
-                        <Typography variant="display3" color="primary" style={styles.titleFont} aria-label="Title">
-                            JAI MONE'T
-                        </Typography>
-                    </div>
-                    <div className="nav" style={styles.nav} aria-label="Navigation">
-                        <NavLinks/>
-                    </div>
-                </div>
-                <div className="body">
+    return (<div className="container" style={styles.container}>
+            <div className="body" style={styles.body}>
 
+                <text style={styles.subtitles}>
+                    Hello, my name is </text><text style={styles.titleFont}>
+                     Mone't.<br/>
+                </text>
+                <text style={styles.subtitles}>
+                    I'm a software engineer based in <text style={styles.titleFont}>
+                    Atlanta.<br/></text>
+                </text>
+                <div className="nav" style={styles.nav} aria-label="Navigation">
+                    <NavLinks/>
                 </div>
             </div>
-        )
+
+        </div>
+    )
 
 };
 

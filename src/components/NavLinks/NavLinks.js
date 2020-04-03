@@ -10,7 +10,7 @@ const styles = {
     fontWeight: "100%",
     textDecoration: "none",
     textAlign: "center",
-    fontSize: "20px"
+    fontSize: "2vw"
 };
 
 const activeStyles = {
