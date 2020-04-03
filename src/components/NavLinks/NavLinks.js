@@ -25,8 +25,8 @@ const links = [
     },
 
     {
-        to: "/projects",
-        title: "| Projects |"
+        to: "/graphics",
+        title: "| Graphics |"
     },
     {
         to: "/contact-me",
