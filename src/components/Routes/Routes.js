@@ -4,6 +4,9 @@ import Welcome from '../Welcome/Welcome';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
+import Media from "../Media/Media";
+
+
 
 export default class Routes extends Component{
     render(){
@@ -11,6 +14,7 @@ export default class Routes extends Component{
             <Route path="/about" component={About} />
             <Route path="/contact-me" component={Contact} />
             <Route path="/projects" component={Projects} />
+            <Route path="/media" component={Media} />
             <Route path="/" component={Welcome} />
           </Switch>
     }
