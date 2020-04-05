@@ -1,16 +1,26 @@
-html{
-  font-family: 'Quicksand', 'Vidaloka', sans-serif;
+html {
+    font-family: 'Quicksand', 'Vidaloka', sans-serif;
+    color: #595959;
+    background-image: url("./assets/Jai-Mone't-Site-Background.png");
 }
 
-h1, h2, h3{
-  color: #673445;
-  font-family: Vidaloka, serif;
+h1, h2, h3 {
+    color: #673445;
+    font-family: Vidaloka, serif;
 }
 
 p {
-  font-family: Quicksand, sans-serif;
+    font-family: Quicksand, sans-serif;
 }
 
 a {
-  color: #C4CCAB
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link, a:hover {
+    transition: all .15s ease-in;
+    box-shadow: inset 0 -.55rem 0 0 #C4CCAB;
+    padding-bottom: .1rem;
 }
