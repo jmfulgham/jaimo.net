@@ -6,10 +6,9 @@ require("typeface-vidaloka");
 
 const styles = {
     fontFamily: "Quicksand",
-    color: "#000000",
-    fontWeight: "100%",
     textDecoration: "none",
     textAlign: "center",
+    fontWeight: "unset"
 };
 
 const activeStyles = {
@@ -38,7 +37,7 @@ const links = [
 
 const NavLinks = () => {
     return (links.map(item => {
-        return (<NavLink to={item.to} style={styles} activeStyle={activeStyles}>{item.title} | </NavLink>)
+        return (<NavLink className="nav-links" to={item.to} style={styles} activeStyle={activeStyles}>{item.title} </NavLink>)
     }))
 
 };
