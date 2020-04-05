@@ -3,7 +3,6 @@ import NavLinks from '../NavLinks/NavLinks';
 
 
 require("typeface-vidaloka");
-require("typeface-quicksand");
 
 const styles = {
 
@@ -23,14 +22,10 @@ const styles = {
         color: '#673445',
     },
 
-    subtitles: {
-        fontFamily: 'Quicksand',
-        color: '#000000',
-    },
-
     nav: {
         order: '1',
-        alignSelf: 'center'
+        alignSelf: 'center',
+        fontSize: "2.85vw"
     },
 
     body: {
@@ -47,14 +42,12 @@ const Welcome = () => {
     return (<div className="container" style={styles.container}>
             <div className="body" style={styles.body}>
 
-                <text style={styles.subtitles}>
-                    Hello, my name is </text><text style={styles.titleFont}>
-                     Mone't.<br/>
-                </text>
-                <text style={styles.subtitles}>
-                    I'm a software engineer based in <text style={styles.titleFont}>
-                    Atlanta.<br/></text>
-                </text>
+
+                Hello, my name is <text style={styles.titleFont}>
+                Mone't.<br/></text>
+                I'm a software engineer that turns <text style={styles.titleFont}>business logic</text> into
+                <text style={styles.titleFont}> responsive, scalable </text>applications.
+
                 <div className="nav" style={styles.nav} aria-label="Navigation">
                     <NavLinks/>
                 </div>
