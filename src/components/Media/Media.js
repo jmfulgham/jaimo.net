@@ -1,12 +1,8 @@
 import React  from "react";
-import Typography from "@material-ui/core/Typography";
-
-require("typeface-vidaloka");
-require("typeface-quicksand");
 
 const Media = () => {
     return (<div className='parent'>
-        <Typography variant='display3'>Media</Typography>
+        <h1>Media</h1>
     </div>)
 
 };
