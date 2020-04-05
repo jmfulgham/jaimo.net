@@ -10,7 +10,6 @@ const styles = {
     fontWeight: "100%",
     textDecoration: "none",
     textAlign: "center",
-    fontSize: "2.85vw"
 };
 
 const activeStyles = {
