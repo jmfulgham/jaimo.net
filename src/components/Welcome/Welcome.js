@@ -7,12 +7,11 @@ require("typeface-vidaloka");
 const styles = {
 
     container: {
-        height: '100vh',
+        height: '99vh',
         display: 'flex',
         flexFlow: 'column wrap',
         justifyContent: 'center',
         alignItems: 'center',
-        maxWidth: '100%',
         backgroundColor: '#ffffff',
 
     },
@@ -20,18 +19,18 @@ const styles = {
     titleFont: {
         fontFamily: "Vidaloka",
         color: '#673445',
+        fontSize: "9.85vw",
     },
 
     nav: {
         order: '1',
         alignSelf: 'center',
-        fontSize: "2.85vw",
-        paddingTop: '5vh',
+        fontSize: "2.45vw",
+        paddingTop: '1vh',
         fontWeight: 'unset'
     },
 
     body: {
-        width: '68%',
         alignSelf: 'center',
         order: '0',
         fontSize: '4.4vw',
@@ -46,10 +45,9 @@ const Welcome = () => {
             <div className="body" style={styles.body}>
 
 
-                Hello, my name is <text style={styles.titleFont}>
-                Mone't.<br/></text>
-                I'm a software engineer that turns <text style={styles.titleFont}>business logic</text> into
-                <text style={styles.titleFont}> responsive, scalable </text>applications!
+                <text style={styles.titleFont}>
+                JAI MONE'T<br/></text>
+                Software Engineer
 
                 <div className="nav" style={styles.nav} aria-label="Navigation">
                     <NavLinks/>
