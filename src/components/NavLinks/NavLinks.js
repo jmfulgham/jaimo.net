@@ -19,21 +19,21 @@ const activeStyles = {
 
 const links = [
     {
-        to: '/about',
-        title: 'About '
+        to: "/about",
+        title: "About"
     },
 
     {
         to: "/graphics",
-        title: " Graphics "
+        title: " Graphics"
     },
     {
-        to: "/contact-me",
-        title: " Contact Me "
+        to: "/contact",
+        title: " Contact"
 
     }, {
         to: "/media",
-        title: " Media "
+        title: " Media"
     }];
 
 const NavLinks = () => {
