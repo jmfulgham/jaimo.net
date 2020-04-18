@@ -8,7 +8,8 @@ const styles = {
     fontFamily: "Quicksand",
     textDecoration: "none",
     textAlign: "center",
-    fontWeight: "unset"
+    fontWeight: "unset",
+    margin: '0.25vw'
 };
 
 const activeStyles = {
@@ -37,7 +38,7 @@ const links = [
 
 const NavLinks = () => {
     return (links.map(item => {
-        return (<NavLink className="nav-links" to={item.to} style={styles} activeStyle={activeStyles}>{item.title} </NavLink>)
+        return (<NavLink className="nav-links" to={item.to} style={styles} activeStyle={activeStyles}>{item.title}</NavLink>)
     }))
 
 };
