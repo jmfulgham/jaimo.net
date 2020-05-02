@@ -11,7 +11,7 @@ export default class Routes extends Component{
     render(){
         return <Switch>
             <Route path="/about" component={About} />
-            <Route path="/contact-me" component={Contact} />
+            <Route path="/contact" component={Contact} />
             <Route path="/graphics" component={Graphics} />
             <Route path="/media" component={Media} />
             <Route path="/" component={Welcome} />
