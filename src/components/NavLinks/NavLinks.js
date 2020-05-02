@@ -9,7 +9,8 @@ const styles = {
     textDecoration: "none",
     textAlign: "center",
     fontWeight: "unset",
-    margin: '0.25vw'
+    margin: '0.25vw',
+    padding: '0.25vw'
 };
 
 const activeStyles = {
