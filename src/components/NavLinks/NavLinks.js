@@ -25,15 +25,15 @@ const links = [
 
     {
         to: "/graphics",
-        title: " Graphics"
+        title: "Graphics"
     },
     {
         to: "/contact",
-        title: " Contact"
+        title: "Contact"
 
     }, {
         to: "/media",
-        title: " Media"
+        title: "Media"
     }];
 
 const NavLinks = () => {
