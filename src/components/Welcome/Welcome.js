@@ -1,5 +1,4 @@
 import React from "react";
-import NavLinks from '../NavLinks/NavLinks';
 
 
 require("typeface-vidaloka");
@@ -55,9 +54,6 @@ const Welcome = () => {
                     I'm a software engineer based in <text style={styles.titleFont}>
                     Atlanta.<br/></text>
                 </text>
-                <div className="nav" style={styles.nav} aria-label="Navigation">
-                    <NavLinks/>
-                </div>
             </div>
 
         </div>
