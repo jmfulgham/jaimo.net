@@ -1,0 +1,40 @@
+.parent {
+    margin: 3em;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    font-size: 3em;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #DB3342;
+}
+
+img {
+    border-radius: 50px;
+    margin-right: 2em;
+    max-width: 100%;
+    height: auto;
+}
+
+.name {
+    align-content: center;
+}
+
+h1 {
+    font-size: 4em;
+}
