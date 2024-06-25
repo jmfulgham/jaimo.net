@@ -1,0 +1,25 @@
+h3 {
+    font-size: 1.75em;
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: #DB3342 underline;
+}
+
+.projects-container {
+    display: flex;
+   flex-wrap: wrap;
+}
+
+.project {
+    flex: 50%
+}
+
+.project p {
+    font-size: 1.45em;
+}
