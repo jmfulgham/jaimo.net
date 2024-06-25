@@ -1,0 +1,6 @@
+.decoration {
+    display: flex;
+    justify-content: space-evenly;
+    color: #DB3342;
+    margin: 1em;
+}

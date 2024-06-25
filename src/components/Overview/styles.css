@@ -1,4 +1,22 @@
 .parent-overview {
     display: flex;
     justify-content: center;
+    flex-flow: column;
+}
+
+.description {
+    text-align: center;
+}
+
+.skills {
+    flex-flow: column;
+}
+
+.skills p {
+    font-size: 2em;
+}
+
+h2 {
+    margin-bottom: 0;
+    text-decoration: underline #DB3342;
 }
