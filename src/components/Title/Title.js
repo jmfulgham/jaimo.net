@@ -13,9 +13,9 @@ const Title = () => {
                 <h1 className={'poppins-bold'}> Hi, I'm Mone't Fulgham</h1>
                 <div className={'icons'}>
                     <a title="GitHub" href={'https://github.com/jmfulgham'}
-                                            target="_blank"><PiGithubLogoFill/></a>
-                    <a title={"Email Me"} href={'mailto:mo@jaimo.net'} target="_blank"><MdMail/></a>
-                    <a title={"LinkedIn"} href={'https://linkedin.com/in/monetfulgham'} target="_blank"><ImLinkedin2/></a>
+                                            target="_blank" rel="noopener noreferrer"><PiGithubLogoFill/></a>
+                    <a title={"Email Me"} href={'mailto:mo@jaimo.net'} target="_blank" rel="noopener noreferrer"><MdMail/></a>
+                    <a title={"LinkedIn"} href={'https://linkedin.com/in/monetfulgham'} target="_blank" rel="noopener noreferrer"><ImLinkedin2/></a>
                 </div>
             </div>
         </div>
