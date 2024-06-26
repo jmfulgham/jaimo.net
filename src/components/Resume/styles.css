@@ -7,9 +7,15 @@
 
 .job-dates {
     flex: 25%;
+    @media (max-width: 800px){
+        flex: 100%;
+    }
 }
 
 .job-details {
+    @media (max-width: 800px){
+        flex: 100%;
+    }
     flex: 75%
 }
 
