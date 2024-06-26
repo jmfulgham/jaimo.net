@@ -1,0 +1,24 @@
+.parent-overview {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+.description {
+    font-size: 1.1em;
+}
+
+.skills {
+    flex-flow: column;
+    margin: 1em 0 1em 0;
+}
+
+.skills p {
+    font-size: 1.5em;
+}
+
+h2 {
+    margin-bottom: 0;
+    text-decoration: underline #DB3342;
+}
