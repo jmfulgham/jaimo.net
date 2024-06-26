@@ -1,5 +1,5 @@
 .App {
-  margin: 2em 10em 2em 10em;
+  margin: 2vw 15vw 2vw 15vw;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -7,15 +7,19 @@
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2.25em;
 }
 
-p {
-  font-size: 26px;
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #DB3342;
 }
 
 .poppins-thin {

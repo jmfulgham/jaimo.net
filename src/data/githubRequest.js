@@ -4,14 +4,11 @@ dotenv.config();
 const query = `
     query {
         user(login: "jmfulgham"){
-            pinnedItems(first: 4, types: REPOSITORY){
+            pinnedItems(first: 5, types: REPOSITORY){
                 nodes {
                     ...on Repository {
                         name
                         description
-                        primaryLanguage {
-                            name
-                        }
                         url
                     }
                 }

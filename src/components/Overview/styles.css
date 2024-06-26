@@ -6,11 +6,12 @@
 }
 
 .description {
-    font-size: 1.6em;
+    font-size: 1.1em;
 }
 
 .skills {
     flex-flow: column;
+    margin: 1em 0 1em 0;
 }
 
 .skills p {

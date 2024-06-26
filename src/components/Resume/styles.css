@@ -1,0 +1,28 @@
+.job {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1em 0 2em 0;
+}
+
+.job-dates {
+    flex: 25%;
+}
+
+.job-details {
+    flex: 75%
+}
+
+.resume-container h3 {
+    margin: 0 0 0.5em 0;
+}
+
+.resume-container h4 {
+    margin: 0.2em 0 0.2em 0;
+    font-size: 1.5em;
+}
+
+p {
+    margin: 0;
+    font-size: 1.5em;
+}
