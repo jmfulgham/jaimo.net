@@ -20,6 +20,10 @@
     font-size: 3em;
     align-items: center;
     justify-content: space-around;
+
+    @media (max-width: 800px){
+        font-size: 2em;
+    }
 }
 
 img {
