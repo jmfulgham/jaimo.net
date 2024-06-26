@@ -3,6 +3,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 1em 0 2em 0;
+
+    p {
+        margin: 0;
+        font-size: 1.1em;
+    }
 }
 
 .job-dates {
@@ -26,9 +31,4 @@
 .resume-container h4 {
     margin: 0.2em 0 0.2em 0;
     font-size: 1.2em;
-}
-
-p {
-    margin: 0;
-    font-size: 0.8em;
 }
