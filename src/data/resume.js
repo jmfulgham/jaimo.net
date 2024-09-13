@@ -1,8 +1,14 @@
 export const resume = [
     {
+        company: "JD Power",
+        startDate: "Jul 2024",
+        title: "Senior Frontend Engineer",
+        synopsis: "Leverage my React, Typescript, GraphQL, and Next.js skills to launch features for Finish Line and JD Sports"
+    },
+    {
         company: "Sabbatical",
         startDate: "Oct 2023",
-        endDate: "now",
+        endDate: "Jul 204",
         title: "Full Stack Engineer",
         synopsis: "Spending time improving my React and Node skills with small personal projects, " +
             "reading up on the latest architecture, and learning new technologies such as Python."
