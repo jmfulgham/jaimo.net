@@ -10,7 +10,7 @@ const Title = () => {
         <div className={"introduction"}>
             {/*<div className={"profile-picture"}><img src={photo} alt="JM Fulgham"/></div>*/}
             <div className={"name"}>
-                <h1 className={"poppins-bold"}> Hi, I'm Mone't Fulgham</h1>
+                <h1 className={"poppins-bold"}> Hi, I'm J.M. Fulgham</h1>
                 <div className={"icons"}>
                     <a title="GitHub" href={"https://github.com/jmfulgham"}
                        target="_blank" rel="noopener noreferrer"><PiGithubLogoFill/></a>
