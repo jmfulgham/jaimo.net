@@ -1,11 +1,9 @@
 export const resume = [
     {
-        company: "Sabbatical",
-        startDate: "Oct 2023",
-        endDate: "now",
-        title: "Full Stack Engineer",
-        synopsis: "Spending time improving my React and Node skills with small personal projects, " +
-            "reading up on the latest architecture, and learning new technologies such as Python."
+        company: "JD Power",
+        startDate: "Jul 2024",
+        title: "Senior Frontend Engineer",
+        synopsis: "Leveraging my React, Typescript, GraphQL, Node.js, Next.js and NoSQL skills to launch help rebuild FinishLine and JD Sports platform to mitigate a $4M loss"
     },
 
     {
@@ -16,7 +14,8 @@ export const resume = [
     synopsis: "In the Web3 startup realm, I led React-based development efforts translating " +
         "Figma mocks into functional solutions utilizing React Hooks, TypeScript, Next.js, Node.js, and PostgreSQL. I led the charge boosting test coverage by 40% with Jest and React Testing Library within two months of my employment." +
         " I also implemented Heap events for KPI tracking, optimizing feature launches and marketing campaigns. As a proactive communicator, I bridged technical solutions for non-technical stakeholders and led QA efforts to resolve client-facing bugs, reducing technical debt effectively."
-}, {
+},
+    {
     company: "Formidable Labs",
     startDate: "Apr 2020",
     endDate: "May 2022",
@@ -28,7 +27,8 @@ export const resume = [
         "endpoints and integrating GraphQL for efficient database operations, " +
         "drastically improving client page render times to 137ms from 5s through Redis caching" +
         " and React.js optimizations. I enhanced client design systems with new features and rigorous testing using Jest, React Testing Library, Enzyme, and Sinon frameworks."
-}, {
+},
+    {
     company: "The Home Depot",
     startDate: "May 2018",
     endDate: "Apr 2020",

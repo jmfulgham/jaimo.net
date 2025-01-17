@@ -3,7 +3,7 @@ import './styles.css'
 
 const Overview = () => {
     return (<div className={"parent-overview"}>
-        <div className={"description"}><p>Hey there! I'm a seasoned full stack software engineer with more than 5 years
+        <div className={"description"}><p>Hey there! I'm a seasoned full stack software engineer with more than 6 years
             of hands-on experience crafting scalable apps and software across ecommerce, fintech, and web3. Before
             diving into software, I studied Economics and spent 6 years as a business analyst in banking and
             finance. Previously, I worked at Unstoppable Domains, where I improved their ecommerce platform, both

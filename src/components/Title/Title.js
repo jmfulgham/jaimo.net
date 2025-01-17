@@ -8,7 +8,7 @@ import {ImLinkedin2} from "react-icons/im";
 const Title = () => {
     return (<div className={"parent"}>
         <div className={"introduction"}>
-            <div className={"profile-picture"}><img src={photo} alt="JM Fulgham"/></div>
+            {/*<div className={"profile-picture"}><img src={photo} alt="JM Fulgham"/></div>*/}
             <div className={"name"}>
                 <h1 className={"poppins-bold"}> Hi, I'm Mone't Fulgham</h1>
                 <div className={"icons"}>
