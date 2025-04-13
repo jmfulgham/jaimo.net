@@ -3,7 +3,7 @@ export const resume = [
         company: "JD Power",
         startDate: "Jul 2024",
         title: "Senior Frontend Engineer",
-        synopsis: "Leveraging my React, Typescript, GraphQL, Node.js, Next.js and NoSQL skills to launch help rebuild FinishLine and JD Sports platform to mitigate a $4M loss"
+        synopsis: "Leveraging my React, Typescript, GraphQL, Node.js, Next.js and NoSQL skills to help rebuild JD Sports' and Finishline's platform to mitigate a $4M loss"
     },
 
     {
