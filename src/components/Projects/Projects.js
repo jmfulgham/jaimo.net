@@ -7,7 +7,9 @@ const Projects = () => {
     useEffect(() => {
         (async () => {
             const resp = await getGithubData()
-            setGithubData(resp)
+            if(resp.length > 0) {
+                setGithubData(resp)
+            }
         })()
     }, [])
 
@@ -15,8 +17,8 @@ const Projects = () => {
         <h2>Recent Projects</h2>
         <div className={"projects-container"}>
             {githubData.map((data, i) => (
-                <div className={"project"}>
-                    <div className={"title-language"} key={i}>
+                <div className={"project"} key={i}>
+                    <div className={"title-language"}>
                         <h3 className={"poppins-semibold"}><a href={data.url} target="_blank"
                                                               rel="noopener noreferrer">{data.name}</a></h3>
                     </div>
