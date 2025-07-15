@@ -40,6 +40,11 @@ export const getGithubData = async () => {
                 "name": "remote-work",
                 "description": "Beta version of a tech focused remote job board, built with React and deployed with Vercel",
                 "url": "https://github.com/jmfulgham/remote-work"
+            },
+            {
+                "name": "pollyglot",
+                "description": "An OpenAI powered translation app built in HTML, CSS, and plain JavaScript",
+                "url": "https://github.com/jmfulgham/pollyglot"
             }
         ]
     }
