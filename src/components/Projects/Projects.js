@@ -5,7 +5,7 @@ const Projects = () => {
     const [githubData, setGithubData] = useState([])
     useEffect(() => {
         (async () => {
-            const response = await fetch('/api/data', {headers: {"Content-Type": "application/json"}})
+            const response = await fetch('/api/data')
             const projectList = await response.json();
             if(projectList.nodes.length > 0) {
                 setGithubData(projectList.nodes)
