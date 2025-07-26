@@ -1,14 +1,14 @@
 import React, {useEffect, useState} from "react";
-import {getGithubData} from "../../data/githubRequest"
 import "./styles.css"
 
 const Projects = () => {
     const [githubData, setGithubData] = useState([])
     useEffect(() => {
         (async () => {
-            const resp = await getGithubData()
-            if(resp.length > 0) {
-                setGithubData(resp)
+            const response = await fetch('/api/data', {headers: {"Content-Type": "application/json"}})
+            const projectList = await response.json();
+            if(projectList.nodes.length > 0) {
+                setGithubData(projectList.nodes)
             }
         })()
     }, [])
