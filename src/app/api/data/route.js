@@ -40,7 +40,6 @@ export async function GET(req, res) {
     } catch (e) {
         //set a backup option in case of issue from GH
         return new Response([{
-
                 "name": "jaimo.net",
                 "description": "My personal website built with React/Next.JS SPA and deployed on Vercel",
                 "url": "https://github.com/jmfulgham/jaimo.net"
